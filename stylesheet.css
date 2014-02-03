@@ -203,7 +203,7 @@ li {
 
 
 .footer_container{
-	height: 2600px;
+	height: 5350px;
 	width:100%;
 	position: relative;
 	margin-left:-10;
@@ -212,8 +212,8 @@ li {
 }
 
 .footer_content_box{
-	height: 2400px;
-	width: 600px;
+	height: 5350px;
+	width: 800px;
 	position: relative;
 	margin:auto;
 	top:150px;
@@ -225,36 +225,76 @@ li {
 }
 
 
-
 /*nav bar buttons*/
 
-#tag1k{background-color:#DEFFE3;
+
+
+#tag1k{background-color:#DFF6F0;
 	clear: both;
 }
 #tag1k:hover{
 	background-color: black;
 }
 
-#tag2k{background-color:#DEFFE3;
+
+#tag2k{background-color:#A9F5E1;
 	clear: both;
 }
 #tag2k:hover{
+	background-color: black;
 }
 
-#tag3k{background-color:#48D8E8;
+
+#tag3k{background-color:#F1EEFC;
 	clear: both;
 }
 #tag3k:hover{
+	background-color: black;
 }
 
-#tag4k{background-color:#1B75BB;
+
+#tag4k{background-color:#E6E1FD;
 	clear:both;
 }
 #tag4k:hover{
+	background-color: black;
 }
 
-#tag5k{background-color:#E5F966;
+
+#tag5k{background-color:#C8CAFC;
 	clear: both;
 }
 #tag5k:hover{
+	background-color: black;
+}
+
+
+#tag6k{background-color:#DEA3ED;
+	clear: both;
+}
+#tag6k:hover{
+	background-color: black;
+}
+
+
+#tag7k{background-color:#F5D0A9;
+	clear: both;
+}
+#tag7k:hover{
+	background-color: black;
+}
+
+
+#tag8k{background-color:#FAAC58;
+	clear: both;
+}
+#tag8k:hover{
+	background-color: black;
+}
+
+#tag9k{background-color:#2E2E2E;
+	clear: both;
+}
+#tag9k:hover{
+	background-color: black;
 }
