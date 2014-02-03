@@ -32,7 +32,7 @@ li {
 
 #header_container{
 	height: 800px;
-	width:105%;
+	width:100%;
 	margin-left:-10px;
 	margin-right:-10px;
 	margin-top: -10px;
@@ -54,8 +54,8 @@ li {
 .section_container{	
 	height:500px;
 	width:105%;
-	margin-left:-10px;
-	margin-right:-10px;
+	margin-left: 0px;
+	margin-right: 0px;
 	position: relative;
 	padding-top:25px;
 	background-color:white;
@@ -75,7 +75,7 @@ li {
 }
 
 .project_container{
-	height:1400px;
+	height:250px;
 	width:105%;
 	margin-left:-10px;
 	margin-right:-10px;
@@ -86,17 +86,70 @@ li {
 
 .project_content_box{
 	height: 300px;
-	width: 500px;
+	width: 700px;
 	position: relative;
 	margin: auto;
-	top: 100px;
+	top: 25px;
 	text-align: center;
 	color: gray;
 	line-height:75%;
-	font-size: 14px
+	font-size: 18px
 }
 
+
 #slideshow_wrapper{
+	display: block;
+	height: 360px;
+	width: 480px;
+	margin: auto;
+}
+
+#slideshow_container{
+	background-color: #FFC;
+	display: block;
+	float: left;
+	height: 360px;
+	width: 480px;
+	overflow: auto;
+}
+
+#slideshow_prev{
+	background-image: url(images/Arrow_left_40px.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: left;
+	height: 360px;
+	width: 75px;
+	position: relative;
+	z-index: 99;
+	padding-right: 15px;
+}
+
+#slideshow_next{
+	background-image: url(images/Arrow_right_40px.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 360px;
+	width: 75px;
+	position: relative;
+	z-index: 99;
+	padding-right:15px
+}
+
+#slideshow_slider{
+	display: block;
+	float: left;
+	height: 360px;
+	width: 480px;
+	overflow: hidden;
+	position: absolute;
+	border: solid 1px black;
+}
+
+/*#slideshow_wrapper{
 	display: block;
 	height: 720px;
 	width: 960px;
@@ -146,18 +199,21 @@ li {
 	overflow: hidden;
 	position: absolute;
 	border: solid 1px black;
-}
+}*/
 
 
 .footer_container{
-	position: relative;
-	margin-bottom:-10;
 	height: 2600px;
+	width:100%;
+	position: relative;
+	margin-left:-10;
+	margin-right:-10;
+	margin-bottom:;
 }
 
 .footer_content_box{
-	height: 400px;
-	width: 800px;
+	height: 2400px;
+	width: 600px;
 	position: relative;
 	margin:auto;
 	top:150px;
@@ -165,6 +221,7 @@ li {
 	text-align: center;
 	color: gray;
 	font-size: 14;
+	text-align: center;
 }
 
 
