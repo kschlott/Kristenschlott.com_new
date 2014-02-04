@@ -4,16 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Slider</title>
 
-    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="jquery.cycle.all.js"></script>
-    <script type="text/javascript">
-     $('.slideshow').cycle({
-       fx:     'scrollHorz',
-       speed:  'slow',
-       next:   '#next',
-       prev:   '#prev'
-     });
-    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
   </head>
@@ -65,29 +57,29 @@
           <p> <i>Washington University in St. Louis (winter 2010)</i></p>
           <p> <i>UC Berkeley (summer 2011)</i></p>
           <p> <i>San Francisco Planning Department (fall 2011)</i></p>
+        </div>
 
-          <div class="slideshow">
-            <img src="images/1_urban_design_1.jpg"/>
-            <img src="images/1_urban_design_2.jpg"/>
-            <img src="images/1_urban_design_3.jpg"/>
-            <img src="images/1_urban_design_4.png"/>
-          </div>
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/1_urban_design_1.jpg"/>
+          <img src="images/1_urban_design_2.jpg"/>
+          <img src="images/1_urban_design_3.jpg"/>
+          <img src="images/1_urban_design_4.png"/>
         </div>
       </div>
-
 
       <div class="project_container" style="background-color:#A9F5E1">
         <div class="project_content_box" id="tag2k">
           <p style="font-size: 24px"> Mapping Adventures in the Bay Area </p>
           <p> <i>personal project (fall 2011)</i></p>
-          <div class="slideshow">
-            <img src="images/2_bucket_map_1.jpg"/>
-            <img src="images/2_bucket_map_2.png"/>
-            <img src="images/2_bucket_map_3.png"/>
-            <img src="images/2_bucket_map_4.jpg"/>
-            <img src="images/2_bucket_map_5.png"/>
-            <img src="images/2_bucket_map_6.jpg"/>
-          </div>
+        </div>
+
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/2_bucket_map_1.jpg"/>
+          <img src="images/2_bucket_map_2.png"/>
+          <img src="images/2_bucket_map_3.png"/>
+          <img src="images/2_bucket_map_4.jpg"/>
+          <img src="images/2_bucket_map_5.png"/>
+          <img src="images/2_bucket_map_6.jpg"/>
         </div>
       </div>
 
@@ -103,26 +95,30 @@
 
 
 
+
       <div class="project_container" style="background-color:#F1EEFC">
         <div class="project_content_box">
           <p style="font-size: 24px"> Advocacy Campaign Creative Direction + Asset Design</p>
           <p> <i>Architecture for Humanty (spring 2012 + winter 2012)</i></p>
-          <div class"slideshow">
-            <img src="images/3_ilacamp_1.jpg"/>
-            <img src="images/3_ilacamp_2.jpg"/>
-            <img src="images/3_ilacamp_3.jpg"/>
-            <img src="images/3_ilacamp_4.jpg"/>
-            <img src="images/3_ilacamp_5.jpg"/>
-          </div>
-          <!--#3B slideshow images -->
-          <div class="slideshow">
-            <img src="images/5_whatsee_1.gif"/>
-            <img src="images/5_whatsee_2.jpg"/>
-            <img src="images/5_whatsee_3.jpg"/>
-            <img src="images/5_whatsee_4.jpg"/>
-            <img src="images/5_whatsee_5.png"/>
-          </div>
         </div>
+
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/3_ilacamp_1.jpg"/>
+          <img src="images/3_ilacamp_2.jpg"/>
+          <img src="images/3_ilacamp_3.jpg"/>
+          <img src="images/3_ilacamp_4.jpg"/>
+          <img src="images/3_ilacamp_5.jpg"/>
+        </div>
+
+        <!--#3B slideshow images -->
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/5_whatsee_1.gif"/>
+          <img src="images/5_whatsee_2.jpg"/>
+          <img src="images/5_whatsee_3.jpg"/>
+          <img src="images/5_whatsee_4.jpg"/>
+          <img src="images/5_whatsee_5.png"/>
+        </div>
+
       </div>
 
 
@@ -138,17 +134,19 @@
               <li><a href="http://architizer.com/blog/be-mine-give-your-secret-crush-an-architecture-themed-valentine/#.UUj2gltRghM"> <img src="images/Archetizer logo.png" width="100px"/></a></li>
             </ul>
           </p>
-
-          <!--#4 slideshow images -->
-          <div class="slideshow">
-            <img src="images/4_valentines_1.jpg"/>
-            <img src="images/4_valentines_2.jpg"/>
-            <img src="images/4_valentines_3.jpg"/>
-            <img src="images/4_valentines_4.jpg"/>
-            <img src="images/4_valentines_5.jpg"/>
-            <img src="images/4_valentines_6.jpg"/>
-          </div>
         </div>
+
+
+        <!--#4 slideshow images -->
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/4_valentines_1.jpg"/>
+          <img src="images/4_valentines_2.jpg"/>
+          <img src="images/4_valentines_3.jpg"/>
+          <img src="images/4_valentines_4.jpg"/>
+          <img src="images/4_valentines_5.jpg"/>
+          <img src="images/4_valentines_6.jpg"/>
+        </div>
+
       </div>
 
       <div class="project_container" style="background-color:#C8CAFC">
@@ -158,16 +156,18 @@
           <p><i>freelance @ The Cellar Manager (2013)</i></p>
           <p style="font-size: 8">published in print in:</p>
           <p><img src="images/Dwell logo.png" width="90"/></p>
-          <!--#6 slideshow images -->
-          <div class="slideshow">
-            <img src="images/6_graphics_1.jpg"/>
-            <img src="images/6_graphics_2.jpg"/>
-            <img src="images/6_graphics_3.jpg"/>
-            <img src="images/6_graphics_4.jpg"/>
-            <img src="images/6_graphics_5.jpg"/>
-            <img src="images/6_graphics_6.jpg"/>
-          </div>
         </div>
+
+        <!--#6 slideshow images -->
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/6_graphics_1.jpg"/>
+          <img src="images/6_graphics_2.jpg"/>
+          <img src="images/6_graphics_3.jpg"/>
+          <img src="images/6_graphics_4.jpg"/>
+          <img src="images/6_graphics_5.jpg"/>
+          <img src="images/6_graphics_6.jpg"/>
+        </div>
+
       </div>
 
 
@@ -175,18 +175,20 @@
         <div class="project_content_box" style="color:#585858">
           <p style="font-size: 24px"> Mobile Sales App UI Design</p>
           <p><i>freelance @ SolarNexus (fall 2013)</i></p>
-          <!--#7 slideshow images -->
-          <div class="slideshow">
-            <img src="images/7_solar_nexus_1.png"/>
-            <img src="images/7_solar_nexus_2.png"/>
-            <img src="images/7_solar_nexus_3.png"/>
-            <img src="images/7_solar_nexus_4.png"/>
-            <img src="images/7_solar_nexus_5.png"/>
-            <img src="images/7_solar_nexus_6.png"/>
-            <img src="images/7_solar_nexus_7.png"/>
-            <img src="images/7_solar_nexus_8.png"/>
-          </div>
         </div>
+
+        <!--#7 slideshow images -->
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/7_solar_nexus_1.png"/>
+          <img src="images/7_solar_nexus_2.png"/>
+          <img src="images/7_solar_nexus_3.png"/>
+          <img src="images/7_solar_nexus_4.png"/>
+          <img src="images/7_solar_nexus_5.png"/>
+          <img src="images/7_solar_nexus_6.png"/>
+          <img src="images/7_solar_nexus_7.png"/>
+          <img src="images/7_solar_nexus_8.png"/>
+        </div>
+
       </div>
 
       <div class="section_container">
@@ -196,7 +198,6 @@
           <p style="font-size: 30px"><i>database interfacing</i></p>
           <p style="font-size: 30px"><i>large-scale information architecture & interaction models</i></p>
           <p style="font-size: 20px">(2013 - 2014)</p>
-
         </div>
       </div>
 
@@ -205,20 +206,19 @@
         <div class="project_content_box" >
           <p style="font-size: 24px">Website UI Design</p>
           <p> <i>Sunk Investment (ongoing) </i></p>
-          <!--#8 slideshow images -->
-          <div class="slideshow">
 
-            <img src="images/8_sunk_investment_1.png"/>
-            <img src="images/8_sunk_investment_2.png"/>
-            <img src="images/8_sunk_investment_3.png"/>
-            <img src="images/8_sunk_investment_4.png"/>
-            <img src="images/8_sunk_investment_5.png"/>
-            <img src="images/8_sunk_investment_6.png"/>
-            <img src="images/8_sunk_investment_7.png"/>
-            <img src="images/8_sunk_investment_8.png"/>
-            <img src="images/8_sunk_investment_9.png"/>
-
-          </div>
+        </div>
+        <!--#8 slideshow images -->
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/8_sunk_investment_1.png"/>
+          <img src="images/8_sunk_investment_2.png"/>
+          <img src="images/8_sunk_investment_3.png"/>
+          <img src="images/8_sunk_investment_4.png"/>
+          <img src="images/8_sunk_investment_5.png"/>
+          <img src="images/8_sunk_investment_6.png"/>
+          <img src="images/8_sunk_investment_7.png"/>
+          <img src="images/8_sunk_investment_8.png"/>
+          <img src="images/8_sunk_investment_9.png"/>
         </div>
       </div>
 
@@ -227,20 +227,20 @@
         <div class="project_content_box" style="color:#585858">
           <p style="font-size: 24px">Digital Product UI Design</p>
           <p> <i>TV News, part of The Internet Archive (winter 2013)</i></p>
-          <!--#9 slideshow images -->
-          <div class="slideshow">
-
-            <img src="images/9_tvnews_1.png"/>
-            <img src="images/9_tvnews_2.png"/>
-            <img src="images/9_tvnews_3.png"/>
-            <img src="images/9_tvnews_4.png"/>
-            <img src="images/9_tvnews_5.png"/>
-            <img src="images/9_tvnews_6.png"/>
-            <img src="images/9_tvnews_7.png"/>
-            <img src="images/9_tvnews_8.png"/>
-
-          </div>
         </div>
+
+        <!--#9 slideshow images -->
+        <div class="cycle-slideshow" data-cycle-auto-height=container>
+          <img src="images/9_tvnews_1.png"/>
+          <img src="images/9_tvnews_2.png"/>
+          <img src="images/9_tvnews_3.png"/>
+          <img src="images/9_tvnews_4.png"/>
+          <img src="images/9_tvnews_5.png"/>
+          <img src="images/9_tvnews_6.png"/>
+          <img src="images/9_tvnews_7.png"/>
+          <img src="images/9_tvnews_8.png"/>
+        </div>
+
       </div>
 
 

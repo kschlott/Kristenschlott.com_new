@@ -2,10 +2,8 @@
 border: 2px dotted red;
 }*/
 
-.slideshow img {
-  width: 200px;
-  width: 200px;
-}
+.cycle-slideshow { width: 50% }
+.cycle-slideshow img { width: 100%; height: auto }
 
 .container{
   margin: 0;
@@ -18,7 +16,6 @@ border: 2px dotted red;
   display: inline-block;
   left:30%;
   z-index: 99;
-
 }
 
 #navbarlist{
@@ -81,14 +78,19 @@ li {
 }
 
 .project_container{
-  height:250px;
+  /* height:250px; */
   margin-left: 0;
   margin-right: 0;
   padding-left:-10px;
   padding-right:-10px;
   padding-top:25px;
+  padding-bottom: 1em;
 }
 
+.project_container .cycle-slideshow {
+  margin: auto;
+  margin-bottom: 1em;
+}
 
 .project_content_box{
   height: 300px;
