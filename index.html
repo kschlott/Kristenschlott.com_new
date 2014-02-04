@@ -7,7 +7,7 @@
     <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="jquery.cycle.all.js"></script>
     <script type="text/javascript">
-     $('#slideshow_slider').cycle({
+     $('.slideshow').cycle({
        fx:     'scrollHorz',
        speed:  'slow',
        next:   '#next',
@@ -65,11 +65,13 @@
           <p> <i>Washington University in St. Louis (winter 2010)</i></p>
           <p> <i>UC Berkeley (summer 2011)</i></p>
           <p> <i>San Francisco Planning Department (fall 2011)</i></p>
-          <!--#1 slideshow images
-          <img src="images/1_urban_design_1.jpg"
-          <img src="images/1_urban_design_2.jpg"
-          <img src="images/1_urban_design_3.jpg"
-          <img src="images/1_urban_design_4.png"-->
+
+          <div class="slideshow">
+            <img src="images/1_urban_design_1.jpg"/>
+            <img src="images/1_urban_design_2.jpg"/>
+            <img src="images/1_urban_design_3.jpg"/>
+            <img src="images/1_urban_design_4.png"/>
+          </div>
         </div>
       </div>
 
@@ -78,16 +80,16 @@
         <div class="project_content_box" id="tag2k">
           <p style="font-size: 24px"> Mapping Adventures in the Bay Area </p>
           <p> <i>personal project (fall 2011)</i></p>
-          <!--#2 slideshow images
-          <img src="images/2_bucket_map_1.jpg"
-          <img src="images/2_bucket_map_2.png"
-          <img src="images/2_bucket_map_3.png"
-          <img src="images/2_bucket_map_4.jpg"
-          <img src="images/2_bucket_map_5.png"
-          <img src="images/2_bucket_map_6.jpg"-->
+          <div class="slideshow">
+            <img src="images/2_bucket_map_1.jpg"/>
+            <img src="images/2_bucket_map_2.png"/>
+            <img src="images/2_bucket_map_3.png"/>
+            <img src="images/2_bucket_map_4.jpg"/>
+            <img src="images/2_bucket_map_5.png"/>
+            <img src="images/2_bucket_map_6.jpg"/>
+          </div>
         </div>
       </div>
-
 
       <div class="section_container">
         <div class="section_content_box">
@@ -105,19 +107,21 @@
         <div class="project_content_box">
           <p style="font-size: 24px"> Advocacy Campaign Creative Direction + Asset Design</p>
           <p> <i>Architecture for Humanty (spring 2012 + winter 2012)</i></p>
-          <!--#3 slideshow images
-          <img src="images/3_ilacamp_1.jpg"
-          <img src="images/3_ilacamp_2.jpg"
-          <img src="images/3_ilacamp_3.jpg"
-          <img src="images/3_ilacamp_4.jpg"
-          <img src="images/3_ilacamp_5.jpg""-->
-          <!--#3B slideshow images
-          <img src="images/5_whatsee_1.gif"
-          <img src="images/5_whatsee_2.jpg"
-          <img src="images/5_whatsee_3.jpg"
-          <img src="images/5_whatsee_4.jpg"
-          <img src="images/5_whatsee_5.png"-->
-
+          <div class"slideshow">
+            <img src="images/3_ilacamp_1.jpg"/>
+            <img src="images/3_ilacamp_2.jpg"/>
+            <img src="images/3_ilacamp_3.jpg"/>
+            <img src="images/3_ilacamp_4.jpg"/>
+            <img src="images/3_ilacamp_5.jpg"/>
+          </div>
+          <!--#3B slideshow images -->
+          <div class="slideshow">
+            <img src="images/5_whatsee_1.gif"/>
+            <img src="images/5_whatsee_2.jpg"/>
+            <img src="images/5_whatsee_3.jpg"/>
+            <img src="images/5_whatsee_4.jpg"/>
+            <img src="images/5_whatsee_5.png"/>
+          </div>
         </div>
       </div>
 
@@ -135,13 +139,15 @@
             </ul>
           </p>
 
-          <!--#4 slideshow images
-          <img src="images/4_valentines_1.jpg"
-          <img src="images/4_valentines_2.jpg"
-          <img src="images/4_valentines_3.jpg"
-          <img src="images/4_valentines_4.jpg"
-          <img src="images/4_valentines_5.jpg"
-          <img src="images/4_valentines_6.jpg"-->
+          <!--#4 slideshow images -->
+          <div class="slideshow">
+            <img src="images/4_valentines_1.jpg"/>
+            <img src="images/4_valentines_2.jpg"/>
+            <img src="images/4_valentines_3.jpg"/>
+            <img src="images/4_valentines_4.jpg"/>
+            <img src="images/4_valentines_5.jpg"/>
+            <img src="images/4_valentines_6.jpg"/>
+          </div>
         </div>
       </div>
 
@@ -152,13 +158,15 @@
           <p><i>freelance @ The Cellar Manager (2013)</i></p>
           <p style="font-size: 8">published in print in:</p>
           <p><img src="images/Dwell logo.png" width="90"/></p>
-          <!--#6 slideshow images
-          <img src="images/6_graphics_1.jpg"
-          <img src="images/6_graphics_2.jpg"
-          <img src="images/6_graphics_3.jpg"
-          <img src="images/6_graphics_4.jpg"
-          <img src="images/6_graphics_5.jpg"
-          <img src="images/6_graphics_6.jpg"-->
+          <!--#6 slideshow images -->
+          <div class="slideshow">
+            <img src="images/6_graphics_1.jpg"/>
+            <img src="images/6_graphics_2.jpg"/>
+            <img src="images/6_graphics_3.jpg"/>
+            <img src="images/6_graphics_4.jpg"/>
+            <img src="images/6_graphics_5.jpg"/>
+            <img src="images/6_graphics_6.jpg"/>
+          </div>
         </div>
       </div>
 
@@ -167,19 +175,19 @@
         <div class="project_content_box" style="color:#585858">
           <p style="font-size: 24px"> Mobile Sales App UI Design</p>
           <p><i>freelance @ SolarNexus (fall 2013)</i></p>
-          <!--#7 slideshow images
-          <img src="images/7_solar_nexus_1.png"
-          <img src="images/7_solar_nexus_2.png"
-          <img src="images/7_solar_nexus_3.png"
-          <img src="images/7_solar_nexus_4.png"
-          <img src="images/7_solar_nexus_5.png"
-          <img src="images/7_solar_nexus_6.png"
-          <img src="images/7_solar_nexus_7.png"
-          <img src="images/7_solar_nexus_8.png"-->
+          <!--#7 slideshow images -->
+          <div class="slideshow">
+            <img src="images/7_solar_nexus_1.png"/>
+            <img src="images/7_solar_nexus_2.png"/>
+            <img src="images/7_solar_nexus_3.png"/>
+            <img src="images/7_solar_nexus_4.png"/>
+            <img src="images/7_solar_nexus_5.png"/>
+            <img src="images/7_solar_nexus_6.png"/>
+            <img src="images/7_solar_nexus_7.png"/>
+            <img src="images/7_solar_nexus_8.png"/>
+          </div>
         </div>
       </div>
-
-
 
       <div class="section_container">
         <div class="section_content_box">
@@ -197,16 +205,20 @@
         <div class="project_content_box" >
           <p style="font-size: 24px">Website UI Design</p>
           <p> <i>Sunk Investment (ongoing) </i></p>
-          <!--#8 slideshow images
-          <img src="images/8_sunk_investment_1.png"
-          <img src="images/8_sunk_investment_2.png"
-          <img src="images/8_sunk_investment_3.png"
-          <img src="images/8_sunk_investment_4.png"
-          <img src="images/8_sunk_investment_5.png"
-          <img src="images/8_sunk_investment_6.png"
-          <img src="images/8_sunk_investment_7.png"
-          <img src="images/8_sunk_investment_8.png"
-          <img src="images/8_sunk_investment_9.png"-->
+          <!--#8 slideshow images -->
+          <div class="slideshow">
+
+            <img src="images/8_sunk_investment_1.png"/>
+            <img src="images/8_sunk_investment_2.png"/>
+            <img src="images/8_sunk_investment_3.png"/>
+            <img src="images/8_sunk_investment_4.png"/>
+            <img src="images/8_sunk_investment_5.png"/>
+            <img src="images/8_sunk_investment_6.png"/>
+            <img src="images/8_sunk_investment_7.png"/>
+            <img src="images/8_sunk_investment_8.png"/>
+            <img src="images/8_sunk_investment_9.png"/>
+
+          </div>
         </div>
       </div>
 
@@ -215,15 +227,19 @@
         <div class="project_content_box" style="color:#585858">
           <p style="font-size: 24px">Digital Product UI Design</p>
           <p> <i>TV News, part of The Internet Archive (winter 2013)</i></p>
-          <!--#9 slideshow images
-          <img src="images/9_tvnews_1.png"
-          <img src="images/9_tvnews_2.png"
-          <img src="images/9_tvnews_3.png"
-          <img src="images/9_tvnews_4.png"
-          <img src="images/9_tvnews_5.png"
-          <img src="images/9_tvnews_6.png"
-          <img src="images/9_tvnews_7.png"
-          <img src="images/9_tvnews_8.png"-->
+          <!--#9 slideshow images -->
+          <div class="slideshow">
+
+            <img src="images/9_tvnews_1.png"/>
+            <img src="images/9_tvnews_2.png"/>
+            <img src="images/9_tvnews_3.png"/>
+            <img src="images/9_tvnews_4.png"/>
+            <img src="images/9_tvnews_5.png"/>
+            <img src="images/9_tvnews_6.png"/>
+            <img src="images/9_tvnews_7.png"/>
+            <img src="images/9_tvnews_8.png"/>
+
+          </div>
         </div>
       </div>
 
