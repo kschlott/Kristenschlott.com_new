@@ -2,6 +2,7 @@
 border: 2px dotted red;
 }*/
 
+
 .cycle-slideshow { width: 50% }
 .cycle-slideshow img { width: 100%; height: auto }
 .cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
