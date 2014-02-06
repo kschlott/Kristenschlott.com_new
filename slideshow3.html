@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Slider</title>
+
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+     $('#slider').cycle({
+       fx:     'scrollHorz',
+       speed:  'slow',
+       next:   '#next',
+       prev:   '#prev'
+     });
+    </script>
+
+
+    <style type="text/css">
+     <!--
+     #wrapper {
+       display: block;
+       height: 720px;
+       width: 960px;
+       margin: auto;
+     }
+     #container {
+       background-color: #FFC;
+       display: block;
+       float: left;
+       height: 720px;
+       width: 960px;
+       overflow: auto;
+     }
+     #prev {
+       background-image: url(images/Arrow_left_40px.png);
+       background-repeat: no-repeat;
+       background-position: center center;
+       display: block;
+       float: left;
+       height: 720px;
+       width: 75px;
+       position: relative;
+       z-index: 99;
+       padding-right: 15px;
+     }
+
+     #next {
+       background-image: url(images/Arrow_right_40px.png);
+       background-repeat: no-repeat;
+       background-position: center center;
+       display: block;
+       float: right;
+       height: 720px;
+       width: 75px;
+       position: relative;
+       z-index: 99;
+       padding-right:15px
+     }
+     #slider {
+       display: block;
+       float: left;
+       height: 720px;
+       width: 960px;
+       overflow: hidden;
+       position: absolute;
+       border: solid 1px black;
+     }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <div class="controller" id="prev"></div>
+        <div id="slider">
+          <img src="images/sfpd_all.jpg" width="960" height="720" />
+          <img src="images/sfpd_eatdrink.jpg" width="960" height="720" /></div>
+          <div class="controller" id="next"></div>
+      </div>
+    </div>
+  </body>
+</html>
