@@ -21,11 +21,12 @@ body {
 
 #navbar{
   position: fixed;
+  color: #383838;
   margin-top:20px;
-  margin-left:-240px;
+  margin-left:-400px;
   display: inline-block;
   left:30%;
-  z-index: 99;
+  z-index: 999;
 }
 
 #navbarlist{
@@ -39,7 +40,6 @@ li {
   padding: 5px;
   font-family: Futura, Tahoma, sans-serif;
   font-size: 11px;
-  color: #ffffff;
   margin:2px;
 }
 
@@ -124,6 +124,65 @@ li {
   padding-bottom:100px;
 }
 
+.caption_h0{
+  height: auto;
+  width: 700px;
+  margin: auto;
+  top: 25px;
+  text-align: center;
+  color: gray;
+  line-height:125%;
+  font-size: 26px;
+  padding-bottom: 25px;
+
+}
+
+.caption_h1{
+  height: auto;
+  width: 700px;
+  margin: auto;
+  top: 25px;
+  text-align: left;
+  color: gray;
+  line-height:70%;
+  padding-top:20px;
+  padding-bottom:10px;
+  font-family: Futura, Tahoma, sans-serif;
+
+}
+
+.caption_h2{
+  height: auto;
+  width: 700px;
+  margin: auto;
+  top: 10px;
+  text-align: left;
+  color: gray;
+  line-height:125%;
+  font-size: 16px;
+  padding-bottom:20px;
+  font-family: Futura, Tahoma, sans-serif;
+
+}
+
+.caption_h3{
+  height: auto;
+  width: 700px;
+  margin: auto;
+  top: 10px;
+  text-align: left;
+  color: gray;
+  line-height:120%;
+  font-size: 12px;
+  padding-top:3px;
+  padding-bottom:50px;
+  font-family: Futura, Tahoma, sans-serif;
+
+}
+
+
+
+
 #slideshow_wrapper{
   display: block;
   height: 360px;
@@ -202,7 +261,7 @@ li {
 /*nav bar buttons*/
 
 #navbarlist li a {
-  color: white;
+  color: #383838;
   text-decoration: none;
 }
 
@@ -216,7 +275,7 @@ li {
 
 
 #tag2k{
-  background-color:#A9F5E1;
+  background-color:#C0F6E7;
   clear: both;
 }
 #tag2k:hover{
@@ -225,26 +284,25 @@ li {
 
 
 #tag3k{
-  background-color:#F1EEFC;
+  background-color:#A9F5E1;
   clear: both;
 }
 #tag3k:hover{
   background-color: black;
 }
 
-
 #tag4k{
-  background-color:#E6E1FD;
-  clear:both;
+  background-color:#F1EEFC;
+  clear: both;
 }
 #tag4k:hover{
   background-color: black;
+
 }
 
-
 #tag5k{
-  background-color:#C8CAFC;
-  clear: both;
+  background-color:#F1EEFC;
+  clear:both;
 }
 #tag5k:hover{
   background-color: black;
@@ -252,7 +310,7 @@ li {
 
 
 #tag6k{
-  background-color:#DEA3ED;
+  background-color:#E6E1FD;
   clear: both;
 }
 #tag6k:hover{
@@ -261,7 +319,7 @@ li {
 
 
 #tag7k{
-  background-color:#F5D0A9;
+  background-color:#C8CAFC;
   clear: both;
 }
 #tag7k:hover{
@@ -270,17 +328,34 @@ li {
 
 
 #tag8k{
-  background-color:#FAAC58;
+  background-color:#FBE3B3;
   clear: both;
 }
 #tag8k:hover{
   background-color: black;
 }
 
+
 #tag9k{
-  background-color:#2E2E2E;
+  background-color:#F9C993;
   clear: both;
 }
 #tag9k:hover{
   background-color: black;
+}
+
+#tag10k{
+  background-color:#FAAC58;
+  clear: both;
+}
+#tag10k:hover{
+  background-color: black;
+}
+
+#tag11k{
+  background-color:#2E2E2E;
+  clear: both;
+}
+#tag11k:hover{
+  background-color: white;
 }
