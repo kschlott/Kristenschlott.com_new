@@ -1,8 +1,3 @@
-/*div {
-border: 2px dotted red;
-}*/
-
-
 #table{
   position: relative;
   padding-top:50px;
@@ -13,8 +8,8 @@ border: 2px dotted red;
   height: auto;
   width: 400px;
   line-height:125%;
-  font-size:24px;
-  color:#CCCCCC;
+  font-size:20px;
+  /*color:#CCCCCC;*/
   text-align: center;
   margin-bottom:10px;
   margin-top:20px; 
@@ -25,8 +20,8 @@ border: 2px dotted red;
 #two{
   height: auto;
   width: 400px;
-  color:gray;
-  line-height:70%;
+  color:#727272;
+  line-height:100%;
   font-family: Futura, Tahoma, sans-serif;
   margin-left:40px;
 
@@ -35,7 +30,7 @@ border: 2px dotted red;
 #three{
   height: auto;
   width: 400px;
-  color:gray;
+  color:#727272;
   line-height:140%;
   font-family: Futura, Tahoma, sans-serif;
   font-size: 12px;
@@ -45,7 +40,7 @@ border: 2px dotted red;
 #four{
   height: auto;
   width: 800px;
-  color:gray;
+  color:#727272;
   line-height:140%;
   font-family: Futura, Tahoma, sans-serif;
   font-size: 10px;
@@ -93,9 +88,6 @@ li {
 
 #header_container{
   height: 800px;
-/*  width:100%;
-  margin-left:-10px;
-  margin-right:-10px; */
   margin-top: -10px;
   position: relative;
   padding-top:50px;
@@ -159,76 +151,6 @@ li {
   line-height:75%;
   font-size: 18px
 }
-
-.project_caption{
-  height: auto;
-  width: 600px;
-  margin: auto;
-  text-align: center;
-  color: gray;
-  font-size: 14px;
-  padding-top:25px;
-  padding-bottom:100px;
-}
-
-.caption_h0{
-  height: auto;
-  width: 700px;
-  margin: auto;
-  top: 25px;
-  text-align: center;
-  color: gray;
-  line-height:125%;
-  font-size: 26px;
-  padding-bottom: 25px;
-
-}
-
-.caption_h1{
-  height: auto;
-  width: 700px;
-  margin: auto;
-  top: 25px;
-  text-align: left;
-  color: gray;
-  line-height:70%;
-  padding-top:20px;
-  padding-bottom:10px;
-  font-family: Futura, Tahoma, sans-serif;
-
-}
-
-.caption_h2{
-  height: auto;
-  width: 700px;
-  margin: auto;
-  top: 10px;
-  text-align: left;
-  color: gray;
-  line-height:125%;
-  font-size: 16px;
-  padding-bottom:20px;
-  font-family: Futura, Tahoma, sans-serif;
-
-}
-
-.caption_h3{
-  height: auto;
-  width: 700px;
-  margin: auto;
-  top: 10px;
-  text-align: left;
-  color: gray;
-  line-height:120%;
-  font-size: 12px;
-  padding-top:3px;
-  padding-bottom:50px;
-  font-family: Futura, Tahoma, sans-serif;
-
-}
-
-
-
 
 #slideshow_wrapper{
   display: block;
@@ -305,6 +227,8 @@ li {
 }
 
 
+
+
 /*nav bar buttons*/
 
 #navbarlist li a {
@@ -339,7 +263,7 @@ li {
 }
 
 #tag4k{
-  background-color:#F1EEFC;
+  background-color:#B7D8CF;
   clear: both;
 }
 #tag4k:hover{
@@ -392,7 +316,7 @@ li {
 }
 
 #tag10k{
-  background-color:#FAAC58;
+  background-color:#F6B173;
   clear: both;
 }
 #tag10k:hover{
