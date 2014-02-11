@@ -3,13 +3,13 @@
   padding-top:50px;
 }
 
+a { color: inherit; } 
 
 #one{
   height: auto;
   width: 400px;
   line-height:125%;
   font-size:20px;
-  /*color:#CCCCCC;*/
   text-align: center;
   margin-bottom:10px;
   margin-top:20px; 
@@ -49,11 +49,11 @@
 
 
 
-.cycle-slideshow { width: 50% }
+.cycle-slideshow { width: 100% }
 .cycle-slideshow img { width: 100%; height: auto }
 .cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
-.cycle-prev { left: 0;  background: url(/images/Arrow_left_40px.png) 50% 50% no-repeat;}
-.cycle-next { right: 0; background: url(/images/Arrow_right_40px.png) 50% 50% no-repeat;}
+.cycle-prev { left: 0;  background: url(/images/arrow_left_100px.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(/images/arrow_right_100px.png) 50% 50% no-repeat;}
 .cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
 
 
