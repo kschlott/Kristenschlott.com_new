@@ -15,6 +15,11 @@
 
 }
 
+#navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
 #navbarlist{
 	list-style-type: none;
 	position: fixed;
